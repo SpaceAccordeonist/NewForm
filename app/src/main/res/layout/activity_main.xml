@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="Фамилия"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Имя"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Отчество"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Год"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Город"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Школа"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Опыт программирования"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:text="Знания языков программиорвания"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:orientation="vertical">
+        <CalendarView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+</LinearLayout>
